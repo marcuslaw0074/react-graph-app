@@ -1,0 +1,8 @@
+version: '3'
+services:
+  react:
+    container_name: 3dgraph-new
+    image: 3dgraph:v1
+    ports:
+      - "3002:3002"
+    restart: on-failure

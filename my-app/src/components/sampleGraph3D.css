@@ -1,0 +1,10 @@
+.QueryNew {
+    position: absolute;
+    left: "80%";
+    background-color: rgba(49, 54, 58, 0.151);
+    height: "60%";
+    /* max-height: 1000; */
+    padding-left: 1%;
+    padding-top: 1%;
+    
+}

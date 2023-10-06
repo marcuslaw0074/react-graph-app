@@ -1,0 +1,34 @@
+version: '3'
+services:
+  react:
+    container_name: 3dgraph-react
+    image: react3dgraph:v1
+    ports:
+      - "3002:3002"
+    networks:
+      - react-3dgraph-network
+    restart: on-failure
+  
+  express:
+    container_name: 3dgraph-express
+    image: express:v1
+    ports:
+        - "9002:9002"
+    networks:
+      - react-3dgraph-network
+    restart: on-failure
+
+  redis:
+    container_name: redis-react
+    image: redis/redis-stack:latest
+    volumes:
+      - ./redis-data:/root/react3dgraph/redis-data
+    networks:
+      - react-3dgraph-network
+    ports:
+      - "36380:6379"
+      - "38003:8001"
+    
+
+networks:
+  react-3dgraph-network:

@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+}
+
+.App2 {
+  /* background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%); */
+  height: 600px;
+}
+
+button {
+  background-color: #54575b;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.liRed {
+  color: #af4c66;
+  width: 300px;
+  width: 200px;
+}
+
+.liGreen {
+  color: #49f87e;
+  width: 300px;
+}
+
+.liBlue {
+  color: #21a2f8;
+  width: 300px;
+}
+
+.liCyan {
+  color: #00f7da;
+  width: 300px;
+}
+
+.liPurple {
+  color: #9655ff;
+  width: 300px;
+}
+
+.LiYellow {
+  color: #bdce23;
+  width: 300px;
+}
+
+.LiOrange {
+  color: #ce7e23;
+  width: 300px;
+}
+
+.LiPink {
+  color: #f821a2;
+  width: 300px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+}
+
+.Forcegraph3D {
+  width: 900px;
+  display: inline-block;
+  background-color: #2B86C5;
+  /* background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%); */
+}
+
+.Select1 {
+  display: inline-block;
+}
+
+.Haha {
+  vertical-align: middle;
+}
+
+.Span1 {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px 5px;
+}
+
+.Span2 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  padding: 5px 5px;
+}
+
+.Mode {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 12px;
+}
+
+form {
+  border: none;
+  color: rgb(180, 190, 165);
+  padding: 15px 25px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+h2 {
+  color: aliceblue;
+  padding: 10px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
